@@ -1,6 +1,0 @@
--- SELECT * FROM shoapp.products;
--- SELECT Category , count(*) as adet FROM shoapp.products group by Category
--- SELECT Category , sum(Price) as toplam FROM shoapp.products group by Category
--- SELECT Category , avg(Price) as ortlama FROM shoapp.products group by Category
--- SELECT Category , avg(Price) as ortlama FROM shoapp.products where Price >6000 group by Category --> tüm elemanları etkiler
---  SELECT Category , count(*) as adet FROM shoapp.products group by Category having count(*) >1 --> tüm grubu etkiler
